@@ -89,8 +89,10 @@ def menu():
   op = input("Select Option> ")
   if op == "1":
     loadfake(input("Name of file> "))
+    fakecontent = "fake"
   elif op == "2":
     loadreal()
+    fakecontent = "real"
   elif op == "3":
     savetofake(input("Name of file> "))
   elif op == "4":
@@ -99,7 +101,12 @@ def menu():
     sys.exit()
   else:
     print("not an option")
-
+  print("")
+  print("")
+  print("")
+  print("")
+  print("")
+  print("")
   menu()
   
   
