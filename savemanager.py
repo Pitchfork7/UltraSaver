@@ -85,6 +85,7 @@ def menu():
   print("2. load real file")
   print("3. save to fake")
   print("4. save to real")
+  print("5. Make file")
   print("5. exit")
   op = input("Select Option> ")
   if op == "1":
@@ -98,6 +99,8 @@ def menu():
   elif op == "4":
     savetoreal()
   elif op == "5":
+    makefile(input("Name of file> "))
+  elif op == "6":
     sys.exit()
   else:
     print("not an option")
@@ -108,7 +111,8 @@ def menu():
   print("")
   print("")
   menu()
-  
+
+menu()
   
   
 
