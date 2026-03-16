@@ -71,7 +71,7 @@ def loadfake(name):
 
 
 
-def menu()
+def menu():
   global realsavefile
   global content
   global fakecontent
